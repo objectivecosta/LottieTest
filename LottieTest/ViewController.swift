@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let animation = Animation.named("play_button2")
+        let animation = Animation.named("play_button4")
         self.animatedSwitch?.animation = animation
         self.animatedSwitch?.setProgressForState(fromProgress: 0.5, toProgress: 1.0, forOnState: false)
         self.animatedSwitch?.setProgressForState(fromProgress: 0.0, toProgress: 0.5, forOnState: true)
